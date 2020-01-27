@@ -81,7 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    @foreach(['one', 'two', 'three'] as $number)
+                        {{$number}}
+                    @endforeach
                 </div>
 
                 <div class="links">
